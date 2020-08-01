@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+
+<body>
+
+    <h1>To Do List</h1>
+
+    <div>
+
+        <form action="" id="myfrm">
+
+            <input type="text" id="todovalue">
+            <button type="button" id="btn">Add Item</button>
+            <button type="button" id="remove" onclick="remove()">Remove</button>
+            <button type="button" id="clear" onclick="clears()"> ClearLocalStorage </button>
+
+        </form>
+
+        <ol id="list">
+
+        </ol>
+
+    </div>
+
+    
+
+    <script src="../js/todos.js"></script>
+</body>
+
+</html>
